@@ -7,12 +7,15 @@
  */
 int main(void)
 {
-	char alp[16] = "0123456789abcdef
 	int i;
 
-	for (i = 0; i < 16; i++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(alp[i]);
+		putchar(i);
+	}
+	for (i = 97; i < 103; i++)
+	{
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
