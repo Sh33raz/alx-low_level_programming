@@ -1,4 +1,4 @@
-#ifndef LINKED 
+#ifndef LINKED
 #define LINKED
 
 #include <stddef.h>
@@ -6,7 +6,7 @@
 #include <string.h>
 
 /**
-* struct string - singlt linked list
+* struct list_s - converts list input into a design matrix
 * @str: string - (malloc'ed string)
 * @len: length of the string
 * @next: points tothe next node
@@ -14,9 +14,9 @@
 */
 typedef struct list_s
 {
-char *str;
-unsigned int len;
-struct list_s *next;
+	char *str;
+	unsigned int len;
+	struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
