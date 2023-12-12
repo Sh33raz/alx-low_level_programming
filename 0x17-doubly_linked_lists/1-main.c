@@ -20,7 +20,11 @@ int main(void)
 	if (new == NULL)
 	{
 		dprintf(2, "Error: Can't malloc\n");
+<<<<<<< HEAD
 		return (EXIT_FAILURE)
+=======
+		return (EXIT_FAILURE);
+>>>>>>> e35e954e08fe355a0acdef07b5a4ebe13be03777
 	}
 	new->n = 9;
 	head->prev = new;
